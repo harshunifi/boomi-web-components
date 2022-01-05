@@ -1,0 +1,35 @@
+:host button {
+  line-height: 14px;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  min-width: 65px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #033D58;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+:host .primary {
+  background-color: #033D58;
+  color: #ffffff;
+}
+
+:host .primary:hover {
+  background-color: #4B778A;
+  border-color: #4B778B;
+}
+
+:host .secondary {
+  border-color: #033D58;
+  color: #033D58;
+}
+:host .secondary:hover, :host :hover {
+  background-color: #B6E5E2;
+  border-color: #033D58;
+}
+

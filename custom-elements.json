@@ -1,0 +1,23 @@
+{
+  "version": 1.2,
+  "tags": [
+    {
+      "name": "boomi-button",
+      "path": "./src/components/boomi-button/boomi-button.tsx",
+      "description": "",
+      "attributes": [
+        {
+          "name": "flavor",
+          "type": "string",
+          "description": "The type of button, primary or secondary",
+          "required": false
+        }
+      ],
+      "events": [],
+      "methods": [],
+      "slots": [],
+      "cssProperties": [],
+      "cssParts": []
+    }
+  ]
+}
